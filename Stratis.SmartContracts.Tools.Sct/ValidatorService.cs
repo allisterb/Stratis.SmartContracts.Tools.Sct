@@ -50,7 +50,7 @@ namespace Stratis.SmartContracts.Tools.Sct
                 console.WriteLine("Smart Contract failed validation. Run validate [FILE] for more info.");
 
             console.WriteLine();
-
+            validationServiceResult.CompilationResult = compilationResult;
             return validationServiceResult;
         }
 
